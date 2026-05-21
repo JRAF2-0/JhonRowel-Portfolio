@@ -45,7 +45,7 @@ export const experience = [
     kind: 'internship',
     period: '2024',
     title: 'QA Tester Intern',
-    org: 'Internship Program',
+    org: 'Complete Development (CoDev)',
     location: 'Web applications',
     highlights: [
       'Ran manual testing of web apps — identified, documented, and reproduced bugs',
