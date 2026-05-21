@@ -25,11 +25,7 @@ export default function Hero() {
         duration: 1,
         stagger: 0.12,
       })
-        .from(
-          '.hero-side',
-          { opacity: 0, duration: 0.8 },
-          '-=0.6'
-        )
+        .from('.hero-side', { opacity: 0, duration: 0.8 }, '-=0.6')
         .from(
           '.hero-portrait',
           { scale: 1.15, opacity: 0, duration: 1.2, ease: 'power4.out' },
@@ -122,8 +118,8 @@ export default function Hero() {
             <span className="hero-line block">
               for the <span className="text-gradient">web</span>
             </span>
-            <span className="hero-line block text-text-muted text-3xl md:text-4xl lg:text-5xl font-medium mt-3">
-              & automations that ship.
+            <span className="hero-line mt-3 block text-3xl font-medium text-text-muted md:text-4xl lg:text-5xl">
+              &amp; automations that ship.
             </span>
           </h1>
 
