@@ -30,7 +30,7 @@ export const experience = [
   },
   {
     kind: 'internship',
-    period: 'Feb 2026 — May 2026',
+    period: 'Feb 2026 — June 2026',
     title: 'AI Automation Intern',
     org: 'Luna AI Systems',
     location: 'Remote',
@@ -43,21 +43,20 @@ export const experience = [
   },
   {
     kind: 'internship',
-    period: '2024',
+    period: 'Aug 2025 — Dec 2025',
     title: 'QA Tester Intern',
     org: 'Complete Development (CoDev)',
     location: 'Web applications',
     highlights: [
-      'Ran manual testing of web apps — identified, documented, and reproduced bugs',
-      'Wrote detailed bug reports and worked directly with developers to drive fixes',
-      'Performed regression testing to keep the system stable after each release',
-      'Designed and executed test cases from scratch',
+      'Performed manual testing on web apps — identified, documented, and tracked software defects',
+      'Designed and executed test cases for regression and functional testing',
+      'Collaborated with developers to validate fixes and improve software stability before release',
     ],
   },
   {
     kind: 'education',
-    period: '2022 – 2026',
-    title: 'BS Industrial Technology · Major in Computer Technology',
+    period: '2025 – 2026',
+    title: 'Bachelor of Industrial Technology · Major in Computer Technology',
     org: 'Cebu Technological University · Moalboal Campus',
     location: 'Undergraduate',
     highlights: [

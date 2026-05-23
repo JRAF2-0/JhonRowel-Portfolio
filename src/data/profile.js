@@ -5,8 +5,9 @@ const MAIL_BODY = 'Hi Jhon,\n\n'
 export const profile = {
   name: 'Jhon Rowel Abines',
   shortName: 'Jhon Rowel',
-  role: 'AI Automation Specialist & Web Developer',
+  role: 'Software Developer & AI Automation Specialist',
   tagline: 'building production n8n workflows and full-stack web apps',
+  languages: ['English', 'Filipino', 'Cebuano'],
   location: 'Moalboal, Cebu',
   email: EMAIL,
   mailtoHref: `mailto:${EMAIL}?subject=${encodeURIComponent(
