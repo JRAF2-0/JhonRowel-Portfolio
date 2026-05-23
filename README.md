@@ -49,7 +49,7 @@ public/
 ├── og-image.png                 1200×630 social card
 ├── robots.txt
 ├── sitemap.xml
-└── JhonRowel_Resume.pdf
+└── JhonResume.pdf
 ```
 
 ## Editing content

@@ -14,7 +14,7 @@ export const profile = {
     MAIL_SUBJECT
   )}&body=${encodeURIComponent(MAIL_BODY)}`,
   phone: '+63 905 682 0085',
-  resumeUrl: '/JhonRowel_Resume.pdf',
+  resumeUrl: '/JhonResume.pdf',
   social: {
     github: 'https://github.com/JRAF2-0?tab=repositories',
     linkedin: 'https://www.linkedin.com/in/jhonrowel20/',
