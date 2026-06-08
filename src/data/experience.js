@@ -35,9 +35,9 @@ export const experience = [
     org: 'Luna AI Systems',
     location: 'Remote',
     highlights: [
-      'Built a multi-platform social media posting scheduler in n8n — Airtable / Sheets queue feeding Telegram, Slack, Facebook, Instagram, and TikTok',
-      'Built the AI Trends Weekly Digest — 10-source RSS aggregation with AI summarization and a dedicated error-handler branch for failed runs',
-      'Built a Payroll Application in Lovable backed by Supabase — salary computation, deductions, and payslip generation',
+      'Developed 5+ automation workflows using n8n, OpenAI, Claude, and third-party APIs, reducing repetitive manual processes for internal operations',
+      'Developed a multi-platform social media scheduling system supporting automated content posting across messaging and social platforms',
+      'Built a full-stack payroll management application with automated salary computation, leveraging Supabase for backend services, authentication, and database management',
       'Designed status tracking and error-handling patterns so failed runs trigger Slack / Gmail alerts instead of going silent',
     ],
   },

@@ -37,6 +37,53 @@ export const tagLabels = {
  */
 
 export const featuredProjects = [
+  // ── FLAGSHIP: GRADEPULSE ───────────────────────────────────────────────
+  {
+    title: 'GradePulse — College Grading Management System',
+    description:
+      "A PH-based grading management system for colleges and universities — handles automated grade computation, secure authentication, and a responsive dashboard. Built end-to-end using AI-assisted (vibe-coded) development with React, Supabase, Tailwind CSS, and TypeScript.",
+    tag: 'web',
+    client: 'Personal project · Vibe-coded',
+    features: [
+      'Automated grade computation',
+      'Secure authentication & role-based access',
+      'Real-time database via Supabase',
+      'Responsive dashboard UI',
+    ],
+    tech: ['React', 'TypeScript', 'Tailwind', 'Supabase'],
+    caseStudy: {
+      period: '2026',
+      problem:
+        "PH colleges and universities still run grading on spreadsheets and paper printouts — instructors waste hours on manual grade computation, students wait days for results, and a single typo can cascade through the whole semester. The brief: build a real-time grading system that handles PH grading conventions (1.00–5.00 scale, NS/INC, transmutation tables) and replaces the spreadsheet workflow.",
+      approach:
+        "Vibe-coded the entire stack end-to-end — React + TypeScript on the front for type-safe UI, Tailwind for the responsive dashboard, and Supabase for auth, real-time database, and row-level security. Used AI-assisted development to ship fast without skipping fundamentals: real schema design, real RLS policies, real auth flows. The dashboard handles separate flows for instructors (encode grades, run computations, publish) and students (view their grades in real time once published).",
+      outcome:
+        "A working PH-localized grading system that replaces the spreadsheet + paper workflow with a single dashboard. Real-time updates, secure auth, and automated computation — students see grades the moment they're published, instructors stop re-entering the same numbers across three different forms.",
+      detailedFeatures: [
+        {
+          title: 'PH-localized grade computation',
+          description:
+            'Handles the 1.00–5.00 scale, INC and NS markers, and transmutation tables that PH academic systems actually use — not a generic A-F system retrofitted.',
+        },
+        {
+          title: 'Role-based access (Supabase RLS)',
+          description:
+            'Instructors see and edit their own classes; students see only their own grades. Enforced at the database layer via Supabase Row-Level Security, not just the UI.',
+        },
+        {
+          title: 'Real-time grade publishing',
+          description:
+            'When an instructor hits publish, grades appear in the student dashboard in real time — no page refresh, no email blast required.',
+        },
+        {
+          title: 'Vibe-coded with discipline',
+          description:
+            "Used AI-assisted development (Lovable / Cursor style) to move fast but still wrote real schemas, real RLS policies, and real type-safe React components — speed without skipping fundamentals.",
+        },
+      ],
+    },
+  },
+
   // ── FLAGSHIP: CAPSTONE ─────────────────────────────────────────────────
   {
     title: 'Motorcycle Fingerprint + Voice Auth (Capstone)',

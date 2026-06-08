@@ -78,7 +78,7 @@ export const skillGroups = [
     ],
   },
   {
-    title: 'Languages I also know',
+    title: 'Languages',
     skills: [
       { name: 'Python', Icon: SiPython },
     ],

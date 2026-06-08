@@ -5,8 +5,8 @@ const MAIL_BODY = 'Hi Jhon,\n\n'
 export const profile = {
   name: 'Jhon Rowel Abines',
   shortName: 'Jhon Rowel',
-  role: 'Software Developer & AI Automation Specialist',
-  tagline: 'building production n8n workflows and full-stack web apps',
+  role: 'Software Developer · Full-Stack & AI Automation',
+  tagline: 'building full-stack web apps and AI-powered automation workflows',
   languages: ['English', 'Filipino', 'Cebuano'],
   location: 'Moalboal, Cebu',
   email: EMAIL,
@@ -14,7 +14,7 @@ export const profile = {
     MAIL_SUBJECT
   )}&body=${encodeURIComponent(MAIL_BODY)}`,
   phone: '+63 905 682 0085',
-  resumeUrl: '/JhonResume.pdf',
+  resumeUrl: '/Jhon-Rowel-Resume.pdf',
   social: {
     github: 'https://github.com/JRAF2-0?tab=repositories',
     linkedin: 'https://www.linkedin.com/in/jhonrowel20/',
