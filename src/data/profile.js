@@ -1,4 +1,4 @@
-const EMAIL = 'jraf2003@gmail.com'
+const EMAIL = 'jhonrowelabines20@gmail.com'
 const MAIL_SUBJECT = 'Inquiry from your portfolio'
 const MAIL_BODY = 'Hi Jhon,\n\n'
 

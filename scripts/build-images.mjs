@@ -129,7 +129,7 @@ const bg = Buffer.from(`
       Recent BIT graduate · Open to full-time roles
     </text>
     <text x="0" y="50" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#5b5b63">
-      jraf2003@gmail.com   ·   github.com/JRAF2-0   ·   linkedin.com/in/jhonrowel20
+      jhonrowelabines20@gmail.com   ·   github.com/JRAF2-0   ·   linkedin.com/in/jhonrowel20
     </text>
   </g>
 
