@@ -24,6 +24,7 @@ import {
   SiXampp,
   SiTailwindcss,
 } from 'react-icons/si'
+import { Workflow } from 'lucide-react'
 import { VscVscode } from 'react-icons/vsc'
 
 export const skillGroups = [
@@ -60,6 +61,7 @@ export const skillGroups = [
   {
     title: 'Automation & AI',
     skills: [
+      { name: 'GoHighLevel', Icon: Workflow },
       { name: 'n8n', Icon: SiN8N },
       { name: 'OpenAI', Icon: SiOpenai },
       { name: 'Claude', Icon: SiClaude },
