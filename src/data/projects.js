@@ -11,6 +11,7 @@ import aiTrendsCover from '../assets/images/projects/ai-trends-cover.webp'
 import aiTrendsErrorHandler from '../assets/images/projects/ai-trends-shot-1-error-handler.webp'
 import bugReportCover from '../assets/images/projects/bug-report-cover.webp'
 import schedulerCover from '../assets/images/projects/scheduler-cover.webp'
+import drinksDessertCover from '../assets/images/projects/jraf-drinks-dessert-cover.webp'
 
 // Shared GitHub repo that hosts all n8n workflow JSONs
 const N8N_REPO = 'https://github.com/jraf-tech/n8n-workflows'
@@ -23,20 +24,57 @@ export const tagLabels = {
   internship: 'internship',
 }
 
-/**
- * Project shape
- *   title, description, tag, client, features[], tech[]
- *   image?     — imported screenshot/GIF (top-of-card thumbnail)
- *   liveUrl?   — "Live Demo" link
- *   repoUrl?   — "View Code" link
- *   caseStudy? — extended content for the modal overlay
- *                { period, problem, approach, outcome, gallery[], detailedFeatures[] }
- *
- * Drop screenshots into src/assets/images/projects/ and import them at the
- * top of this file, e.g. `import helpdeskCover from '../assets/images/projects/helpdesk-cover.png'`
- */
 
 export const featuredProjects = [
+  // ── FLAGSHIP: JRAF - DRINKS & DESSERT ───────────────────────────────
+  {
+    title: 'JRAF - Drinks & Dessert',
+    description:
+      'A cinematic, animation-driven website for a small drinks and dessert shop in Moalboal, Cebu — featuring GSAP-powered scroll storytelling, an infinite auto-scrolling review carousel, and buttery-smooth navigation throughout.',
+    tag: 'web',
+    client: 'Personal project',
+    features: [
+      'Cinematic loading screen sequence',
+      'GSAP-orchestrated hero intro',
+      'Scroll-triggered animations across all sections',
+      'Infinite auto-scrolling customer review ticker',
+      'Lenis-powered smooth scrolling with intercepted anchor navigation',
+      'Interactive gallery lightbox',
+      'Embedded Google Maps location with directions',
+      'Fully responsive across mobile, tablet, and desktop',
+    ],
+    tech: ['React', 'Vite', 'TypeScript', 'Tailwind CSS', 'GSAP (ScrollTrigger)', 'Lenis', 'Lucide React'],
+    image: drinksDessertCover,
+    liveUrl: 'https://jraf-drinks-dessert.vercel.app/',
+    repoUrl: 'https://github.com/JRAF2-0/JRAF-Drinks_Dessert',
+    caseStudy: {
+      period: '2026',
+      problem:
+        'A small local shop needed a website that felt as memorable as the product experience — not a generic template. The goal was to create a brand-first storytelling site that could guide visitors from first impression to direction and discovery.',
+      approach:
+        'Built a cinematic one-page experience with a loading sequence, GSAP-driven motion, and Lenis-enabled smooth scrolling. The layout combines immersive visuals, a review ticker, a gallery lightbox, and an embedded location map into a polished narrative flow.',
+      outcome:
+        'The site delivers a premium, story-driven browsing experience that feels modern and memorable while staying fast, responsive, and easy to explore on any device.',
+      detailedFeatures: [
+        {
+          title: 'Immersive loading sequence',
+          description:
+            'The intro uses a layered loading experience with logo reveal, steam animation, and the brand identity unfolding before the main content appears.',
+        },
+        {
+          title: 'Scroll storytelling',
+          description:
+            'GSAP ScrollTrigger drives motion across sections to make the page feel alive as visitors move down the experience.',
+        },
+        {
+          title: 'Smooth, polished UX',
+          description:
+            'Lenis and intercepted anchor navigation keep transitions fluid while preserving a fast and intuitive browsing experience.',
+        },
+      ],
+    },
+  },
+
   // ── FLAGSHIP: GRADEPULSE ───────────────────────────────────────────────
   {
     title: 'GradePulse — College Grading Management System',
